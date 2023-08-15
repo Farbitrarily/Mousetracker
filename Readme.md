@@ -8,6 +8,6 @@
 
 This is my personal exploration. This code is intended to simulate scrolling with cursor movement on Windows. For older single-touch devices, use touch to perform scrolling operations. Scripts do not affect dragging operations.  
 Environmental requirements: `Python 3.7 or higher. `  
-Please go to https://www.python.org/ to download and install and [configure environment variables](https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_environment_variables?view =powershell-7.3)  
+Please go to https://www.python.org/ to download and install and [configure environment variables](https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_environment_variables?view=powershell-7.3)  
 The script was created for Windows, I haven't tested it on linux, so I can't make sure that the code will work perfectly.  
 Known issue: sliding is not smooth
