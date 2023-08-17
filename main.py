@@ -1,6 +1,5 @@
 # 导入pynput和threading库
 import pynput
-import threading
 from time import sleep
 # 创建一个鼠标控制器对象
 mouse = pynput.mouse.Controller()
@@ -9,9 +8,9 @@ mouse = pynput.mouse.Controller()
 cursor_positions = []
 
 # 定义一个阈值，只有当y值变化超过这个阈值时，才输出滚轮操作
-threshold = 10
+threshold = 5
 #定义movewall的阈值
-movewall = 5
+movewall = 15
 
 # 定义一个函数用于监测光标位置并记录到列表中
 def monitor_cursor(x,y): # 添加一个参数x，用于接收鼠标移动事件的对象
